@@ -74,15 +74,22 @@ nav a{
 h2 {
 	color: #4aaaa5;
 	font-size: 20px;
-	border-bottom: 1px solid #ccc;
+	border-bottom: 3px solid #ccc;
 	padding: 10px;
 	margin-bottom: 10px;
+}
+
+main {
+	padding: 50px 0;
+    display: block;
+    position: relative;
+    height: 100%;
+    overflow: auto;
 }
 
 #about{
 	float: left;
 	width:  760px;
-	height: auto;
 	display: inline;
 	margin-top: 40px;
 	margin-left: 60px;
@@ -125,7 +132,7 @@ h2 {
 
 footer{
 	clear: both;
-	position: absolute;
+	position: reletive;
 	bottom: 0px;
 	text-align: center;
 	color: #ccc;
@@ -142,13 +149,8 @@ footer{
 
 }
 
-.portimg{
-	width: 50%;
-	height: 50%;
-	float: left;
-	padding: 40px;
 
-}
+
 
 .main3{
 	float: left;
@@ -164,13 +166,53 @@ footer{
 
 }
 
-.portul{
-	width: 100%;
-	height: 100%;
-	display: block;
-	font-size: 16px;
-	line-height: 1.5em;
+.portLi{
+	position: relative;
+	width: 50%;
+	height: 50%;
+	display: inline;
+	float: left;
+	margin: 0 auto;
 }
+
+.portimg{
+	width: 75%;
+	height: 50%;
+	display: block;
+	margin: 0 auto;
+	padding-top: 10px;
+
+}
+
+.portfolioP{
+	padding: 10px;
+	background: #4aaaa5;
+	margin: 0 auto;
+	text-align: center;
+	width: 75%;
+	position: relative; 
+	bottom: 20px;
+
+}
+
+input{
+	width: 100%;
+	padding: 6px;
+	margin: 5px 0;
+}
+textarea{
+	width: 100%;
+	margin: 5px 0;
+}
+
+label{
+	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+
+
+
 
 
 
