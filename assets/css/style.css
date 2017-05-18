@@ -30,7 +30,7 @@ h1{
 	background-color: #4aaaa5;
 	width: 20%;
 	text-align: center;
-	margin-left: 60px;
+	margin-left: 190px;
 	float: left;
 	display: inline;
 	padding: 20px;
@@ -54,10 +54,12 @@ header{
 
 
 nav {
-	float: right;
-	margin-right: 5%;
-	text-align: right;
-	width: 45%;
+	    float: right;
+    margin-right: 5%;
+    text-align: right;
+    position: relative;
+    width: 45%;
+    right: 120px;
 }
 
 nav li{
@@ -101,21 +103,23 @@ main {
     position: relative;
     height: 70%;
     overflow: auto;
+    width: 960px;
+    margin: 0 auto;
 }
 
 #about{
-	float: left;
-	width:  60%;
-	/*height: 100%;*/
-	display: inline;
-	margin-top: 30px;
-	margin-left: 60px;
-	padding: 40px;
-	background: #fff;
-	padding: 40px;
-	color: #777777;	
-	margin-bottom: 40px;
-
+	    float: left;
+    width: 650px;
+    /* height: 100%; */
+    display: inline;
+    margin-top: 30px;
+    margin-left: 20px;
+    padding: 40px;
+    background: #fff;
+    padding: 40px;
+    color: #777777;
+    margin-bottom: 40px;
+    /* margin-right: 10px; */
 
 }
 
@@ -134,15 +138,14 @@ main {
 }
 
 #connect{
-	float: right;
-	width: 28%;
-	height: 28%;
-	display: inline;
-	margin: 30px;
-	background: #fff;
-	padding: 30px;
-	margin-top: 40px;
-
+	  float: right;
+    width: 270px;
+    height: 28%;
+    display: inline;
+    margin: 10px;
+    background: #fff;
+    padding: 20px;
+    margin-top: 30px
 
 	
 }
@@ -171,7 +174,7 @@ footer{
 	border-bottom: 3px solid #ccc;
 	background: #fff;
 	display: inline-block;
-	width: 100% ;
+	width: 100%;
 /*	margin-top: 20px;*/
 
 }
@@ -271,7 +274,7 @@ strong{
 
 #connect div{
 	position: relative;
-    left: 35px;
+    left: 7px;
 }
 }
 
