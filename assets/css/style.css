@@ -73,6 +73,20 @@ nav a{
 	color: #ccc;
 }
 
+nav a:active{
+	color: #4aaaa5;
+}
+
+nav a:hover {
+	color: #4aaaa5;
+	
+}
+
+
+
+
+
+
 h2 {
 	color: #4aaaa5;
 	font-size: 20px;
